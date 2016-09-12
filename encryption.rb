@@ -17,5 +17,4 @@ case encrypt_method
     puts "\nВот, что получилось:\n " + Digest::MD5.hexdigest(user_input)
   when 2
     puts "Вот, что получилось:\n" + Digest::SHA1.hexdigest(user_input)
-
 end
